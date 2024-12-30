@@ -286,7 +286,6 @@ img{
     font-size: 40px;
     font-weight: 700;
     line-height: 45px;
-    /* margin-top: 96px; */
     text-align: center;
 }
 .sec_desc{ 
@@ -414,6 +413,7 @@ img{
 }
 .we .sec_tit{
     padding-top: 93px;
+
 }
 .we img{
     width: 980px;
