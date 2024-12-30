@@ -317,6 +317,7 @@ img{
     font-family: "Roboto", sans-serif;
 }
 .commerce{
+    padding-top: 91px;
     padding-bottom: 91px;
 }
 .grey{
@@ -411,7 +412,9 @@ img{
     margin: 0;
     margin-bottom: 70px;
 }
-
+.we .sec_tit{
+    padding-top: 93px;
+}
 .we img{
     width: 980px;
     height: 690px;
