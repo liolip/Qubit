@@ -13,10 +13,6 @@ body {
 li{
     list-style-type: none;
 }
-img{
-    width: 100%;
-    display: block;
-}
 button{
     border: 0;
     cursor: pointer;
@@ -37,6 +33,13 @@ button{
 }
 header {
     background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    background: rgba(204, 206, 212, 0.5);
+    backdrop-filter: blur(10px);
 }
 a {
     color: inherit;
@@ -61,6 +64,7 @@ a {
 }
 .account .btn{
     margin-right: 38px;
+    text-align: center;
 }
 .login {
     color: black;
@@ -97,6 +101,11 @@ img{
     line-height: 54px;
     color: #6F2DFF;
 }
+
+.main .main_btns {
+    margin: 0;
+}
+
 .main_txt{ 
     font-size: 18px;
     line-height: 30px;
@@ -277,7 +286,7 @@ img{
     font-size: 40px;
     font-weight: 700;
     line-height: 45px;
-    margin-top: 96px;
+    /* margin-top: 96px; */
     text-align: center;
 }
 .sec_desc{ 
@@ -328,6 +337,21 @@ img{
 }
 .power_btn .btn{
     margin: 0 11px;
+}
+.btn_white{
+    background-color: #fff;
+    background: #fff;
+    display: block;
+    text-align: center;
+    color:#6F2CFF;
+    transition: 0.5s;
+    border-radius: 20px;
+    padding: 10px 34px;
+    line-height: 1;
+    font-size: 15px;
+}
+.btn_white:hover{
+    background:#d2cdcd;
 }
 .what .sec_tit{
     margin-bottom: 65px;
@@ -386,32 +410,102 @@ img{
     margin: 0;
     margin-bottom: 70px;
 }
-.we{
-    margin-bottom: 140px;
 
-
-}
 .we img{
     width: 980px;
     height: 690px;
     margin-left: 150px;
-    margin-bottom: 140px;
+    margin-bottom: 84px;
 }
-.ecosystem .grey{  
-    margin-bottom: 131px;
-    width: 100%;
+.ecosystem {
+    background-color: #F5F5F5;
     height: 627px;
-    padding-top: 131px;
-    background: #F5F5F5;
+    
 }
+.icons img{width: 576px;
+    height: 576px;
+    margin-left: 720px;
+    margin-top: -620px;
+    position: relative;
+    }
 .eco_txt{
-    margin-top: 116px;
+    line-height: 45px;
+    font-size: 40px;
+    padding-top: 168px;
     margin-bottom: 47px;
-    margin-left: 20px;
+    width: 477px;
 }
 .eco_tit{
-    width: 571px;
+    font-size: 13px;
+    line-height: 30px;
+    margin-bottom: 74px;
 }
+.ecosystem_btn{
+    justify-content: flex-start;
+    width: 203px;
+}
+.btn_eco{
+    background: #6F2CFF;
+    display: block;
+    text-align: center;
+    color:#fff;
+    transition: 0.5s;
+    border-radius: 20px;
+    padding: 10px 34px;
+    font-size: 15px;
+    margin-bottom: 151px;
+}
+.btn_eco:hover{
+    background:#41247f;
+    
+}
+.search{
+    height: 329px;
+    background-image: url(../img/book_demo.png);
 
+}
+.search_in{
+}
+.search .btn_purple{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+    width: 187px;
 
-
+}
+.search .sec_tit{
+    padding-top: 93px;
+    color: #fff;
+    margin-bottom: 34px;
+}
+.main_btns{
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+.icon img{
+    width: 140px;
+    height: 182px;
+    margin: 0 auto;
+}
+.connect_tit{
+    font-size: 16px;
+    line-height: 45px;
+    width: 127px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.social{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.social svg{
+    margin-right: 30px;
+}
+.last_social_logo{
+    margin-right: 0 !important;
+}
